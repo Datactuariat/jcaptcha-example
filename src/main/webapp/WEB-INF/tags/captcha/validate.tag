@@ -3,5 +3,6 @@
 <%@ attribute name="value" required="true" rtexprvalue="true" %>
 <%
     boolean isValid = SimpleImageCaptchaServlet.validateResponse(request, value);
+    application.log(request.toString());
     out.print(isValid);
 %>
