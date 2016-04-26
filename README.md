@@ -4,7 +4,7 @@ jcaptcha-example
 Quick Start
 -----------
 
-    git clone https://github.com/naokikimura/jcaptcha-example.git
+    git clone https://github.com/Datactuariat/jcaptcha-example.git
     cd jcaptcha-example
     mvn jetty:run
 
